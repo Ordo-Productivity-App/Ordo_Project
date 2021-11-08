@@ -100,6 +100,13 @@ Original App Design Project - README
 
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+•	Home Feed Screen
+  o	(Read/GET) Query all tasks where user is author
+  o	(Delete) Delete existing like
+  o	(Create/POST) Create a new sub task for existing task
+  o	(Delete) Delete existing task
+•	Create Post Screen
+  o	(Create/POST) Create a new task
+•	Profile Screen
+  o	(Read/GET) Query logged in user object
+  o	(Update/PUT) Update user profile description
