@@ -89,17 +89,16 @@ Original App Design Project - README
 * -> Stream
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 [Wireframe - iOS Group.pdf](https://github.com/Ordo-Productivity-App/Ordo/files/7465220/Wireframe.-.iOS.Group.pdf)
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+![image](https://user-images.githubusercontent.com/87246107/140680588-30c350dc-b01d-4f06-8b91-9d8e1f0846dd.png)
+
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
