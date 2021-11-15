@@ -46,8 +46,9 @@ Original App Design Project - README
 
 ### 2. Screen Archetypes
 
-* [Login]
-* User can login
+* [Login][x]
+* User can login. This task has been completed. GIF to follow.
+* 
 * [Task]
 * User can view & make tasks
 * [Profile]
