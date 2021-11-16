@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" alpha="0.84999999999999998" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mover-hourglass-organization-timer-png-favpng-2we2KLnNEyXY3kKTAT9bHVmsz" translatesAutoresizingMaskIntoConstraints="NO" id="VZU-UR-bzx">
+                                <rect key="frame" x="79" y="298" width="256" height="253"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VZU-UR-bzx" secondAttribute="height" multiplier="257:254" id="jjX-lL-wFb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="cooltext397725461334404" translatesAutoresizingMaskIntoConstraints="NO" id="VM0-gT-ibA">
+                                <rect key="frame" x="38" y="569" width="338" height="161"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VM0-gT-ibA" firstAttribute="top" secondItem="VZU-UR-bzx" secondAttribute="bottom" constant="18" id="2Jl-uc-a6k"/>
+                            <constraint firstItem="VM0-gT-ibA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="2Pp-HC-h6m"/>
+                            <constraint firstItem="VZU-UR-bzx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="PiY-OC-fJQ"/>
+                            <constraint firstItem="VZU-UR-bzx" firstAttribute="centerX" secondItem="VM0-gT-ibA" secondAttribute="centerX" id="V9D-Xh-lzd"/>
+                            <constraint firstItem="VZU-UR-bzx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="WAe-jm-ev4"/>
+                            <constraint firstItem="VZU-UR-bzx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="254" id="a1A-Ei-SDL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VM0-gT-ibA" secondAttribute="trailing" constant="38" id="fbQ-8D-j3a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VM0-gT-ibA" secondAttribute="bottom" constant="132" id="wjm-fL-Fdc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cooltext397725461334404" width="274" height="75"/>
+        <image name="mover-hourglass-organization-timer-png-favpng-2we2KLnNEyXY3kKTAT9bHVmsz" width="180" height="180"/>
+    </resources>
+</document>
